@@ -1,0 +1,11 @@
+.paid {
+  color: rgb(68, 168, 68);
+  font-weight: bold;
+}
+
+.noPay {
+  color: rgb(194, 66, 66);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=orderManagement.css.map */

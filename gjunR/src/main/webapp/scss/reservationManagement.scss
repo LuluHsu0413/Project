@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+#forEachBox {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(50%);
+  text-align: center;
+}
+
+.qwe {
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.tableform {
+  position: relative;
+}
+
+td {
+  white-space: nowrap;
+}
+
+#myInput {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 5px;
+  font-size: 1em;
+}
+
+// .title {
+//   text-align: center;
+// }
+.inputField {
+  font-size: 24px;
+  align-items: center;
+  #myInput {
+    width: 150px;
+    height: 35px;
+    &:focus {
+      border: 2px solid #df2514;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+#result {
+    height: 100px;
+    font-size: 3rem;
+    margin: 0;
+    border-radius: 0;
+    color: #df2514;
+    background: #e9e3e2;
+}
+
+#operator {
+    width: 50px;
+}
+
+#number-area {
+    margin: 0;
+}
+
+#number-area>div {
+    border: 1px solid #f2f1f1;
+    cursor: pointer;
+}
+
+#number-area>div:hover {
+    background: #f45f29;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+.number-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #dedede;
+}  
+
+.btn-primary {
+      --bs-btn-color: #fff;
+      --bs-btn-bg: #df2514;
+      --bs-btn-border-color: #df2514;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #c91d0d;
+      --bs-btn-hover-border-color: #c91d0d;
+      --bs-btn-focus-shadow-rgb: 49,132,253;
+      --bs-btn-active-color: #fff;
+      --bs-btn-active-bg: #c91d0d;
+      --bs-btn-active-border-color: #c91d0d;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #df2514;
+      --bs-btn-disabled-border-color: #df2514;
+  }
+    
+@media screen and (max-width: 765px) {
+    #result {
+        font-size: 1.5rem;
+    }
+}

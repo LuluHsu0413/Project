@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: rgb(96, 95, 95);
+  height: 100%;
+  width: 300px;
+}
+.nav .btnarea {
+  top: 100px;
+}
+.nav .btnarea a {
+  border: 2px solid black;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 5px 20px;
+  font-size: 24px;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
+}
+.nav .btnarea a:hover {
+  background-color: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=manager.css.map */
